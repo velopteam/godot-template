@@ -1,3 +1,0 @@
-[submodule "addons"]
-	path = addons
-	url = https://github.com/velopman/godot-streaming-addons
