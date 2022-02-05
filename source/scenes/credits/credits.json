@@ -1,0 +1,30 @@
+[
+    {
+        "role": "role_1",
+        "names": [
+            "name_1"
+        ]
+    },
+    {
+        "role": "role_2",
+        "names": [
+            "name_1",
+            "name_2"
+        ]
+    },
+    {
+        "role": "role_4",
+        "names": [
+            "name_1",
+            "name_3"
+        ]
+    },
+    {
+        "role": "role_3",
+        "names": [
+            "name_1",
+            "name_2",
+            "name_3"
+        ]
+    }
+]

@@ -1,0 +1,56 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://source/scenes/credits/credits.gd" type="Script" id=1]
+
+[node name="credits" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+color_title = Color( 1, 0, 0, 1 )
+credits_file = "res://source/scenes/credits/credits.json"
+
+[node name="text_credits" type="RichTextLabel" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+bbcode_enabled = true
+bbcode_text = "[center][color#ff0000]Title[/color]
+[color#ffffff]Subtitle[/color]
+
+[color#ffffff]role_1[/color]
+[color#ffffff]name_1[/color]
+
+[color#ffffff]role_2[/color]
+[color#ffffff]name_1[/color]
+[color#ffffff]name_2[/color]
+
+[color#ffffff]role_4[/color]
+[color#ffffff]name_1[/color]
+[color#ffffff]name_3[/color]
+
+[color#ffffff]role_3[/color]
+[color#ffffff]name_1[/color]
+[color#ffffff]name_2[/color]
+[color#ffffff]name_3[/color]
+[/center]"
+text = "[color#ff0000]Title[/color]
+[color#ffffff]Subtitle[/color]
+
+[color#ffffff]role_1[/color]
+[color#ffffff]name_1[/color]
+
+[color#ffffff]role_2[/color]
+[color#ffffff]name_1[/color]
+[color#ffffff]name_2[/color]
+
+[color#ffffff]role_4[/color]
+[color#ffffff]name_1[/color]
+[color#ffffff]name_3[/color]
+
+[color#ffffff]role_3[/color]
+[color#ffffff]name_1[/color]
+[color#ffffff]name_2[/color]
+[color#ffffff]name_3[/color]
+"
