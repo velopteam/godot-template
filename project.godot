@@ -13,15 +13,28 @@ _global_script_classes=[ {
 "class": "GodotReset",
 "language": "GDScript",
 "path": "res://addons/godot_reset/godot_reset.gd"
+}, {
+"base": "Reference",
+"class": "IOHelper",
+"language": "GDScript",
+"path": "res://source/helpers/common/IOHelper.gd"
 } ]
 _global_script_class_icons={
-"GodotReset": ""
+"GodotReset": "",
+"IOHelper": ""
 }
 
 [application]
 
 config/name="godot-template"
+run/main_scene="res://source/scenes/main/main.tscn"
 config/icon="res://icon.png"
+
+[autoload]
+
+Event="*res://source/helpers/autoloads/event.gd"
+Global="*res://source/helpers/autoloads/global.gd"
+__Screenshot="*res://source/helpers/autoloads/screenshot.gd"
 
 [editor_plugins]
 
