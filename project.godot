@@ -8,10 +8,28 @@
 
 config_version=4
 
+_global_script_classes=[ {
+"base": "EditorPlugin",
+"class": "GodotReset",
+"language": "GDScript",
+"path": "res://addons/godot_reset/godot_reset.gd"
+} ]
+_global_script_class_icons={
+"GodotReset": ""
+}
+
 [application]
 
 config/name="godot-template"
 config/icon="res://icon.png"
+
+[editor_plugins]
+
+enabled=PoolStringArray( "res://addons/godot_reset/plugin.cfg" )
+
+[gui]
+
+theme/custom="res://assets/themes/main.theme"
 
 [physics]
 
