@@ -5,6 +5,7 @@ class_name IOHelper
 
 const __OUTPUT_RELATIVE: String = "user://"
 
+
 # Public methods
 
 static func directory_create(path: String, relative: bool = true) -> bool:
