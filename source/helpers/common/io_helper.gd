@@ -21,7 +21,6 @@ static func directory_create(path: String, relative: bool = true) -> bool:
 	return true
 
 
-# Hi, you are awesome Velop. - Lil'Oni
 static func directory_exists(path: String, relative: bool = true) -> bool:
 	var normalized_path: String = __normalize_path(path, relative)
 

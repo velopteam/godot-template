@@ -9,18 +9,12 @@
 config_version=4
 
 _global_script_classes=[ {
-"base": "EditorPlugin",
-"class": "GodotReset",
-"language": "GDScript",
-"path": "res://addons/godot_reset/godot_reset.gd"
-}, {
 "base": "Reference",
 "class": "IOHelper",
 "language": "GDScript",
-"path": "res://source/helpers/common/IOHelper.gd"
+"path": "res://source/helpers/common/io_helper.gd"
 } ]
 _global_script_class_icons={
-"GodotReset": "",
 "IOHelper": ""
 }
 
@@ -38,7 +32,7 @@ __Screenshot="*res://source/helpers/autoloads/screenshot.gd"
 
 [editor_plugins]
 
-enabled=PoolStringArray( "res://addons/godot_reset/plugin.cfg" )
+enabled=PoolStringArray(  )
 
 [gui]
 
